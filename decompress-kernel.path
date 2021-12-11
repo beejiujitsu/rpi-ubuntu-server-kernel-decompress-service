@@ -1,0 +1,9 @@
+[Unit]
+Description="Monitor /var/run/reboot-required existence"
+
+[Path]
+PathExists=/var/run/reboot-required
+Unit=decompress-kernel.service
+
+[Install]
+WantedBy=multi-user.target

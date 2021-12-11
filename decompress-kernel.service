@@ -1,0 +1,5 @@
+[Unit]
+Description="Decompress vmlinuz into bootable vmlinux file"
+
+[Service]
+ExecStart=/usr/local/bin/decompress-kernel

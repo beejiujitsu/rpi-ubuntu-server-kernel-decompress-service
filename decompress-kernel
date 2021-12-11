@@ -1,0 +1,2 @@
+#!/bin/sh
+dd if=/boot/vmlinuz bs=512 skip=0000000 | zcat > /boot/vmlinux
